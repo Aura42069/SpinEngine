@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1693825586
+icon.svg::CompressedTexture2D::1473908760506947661::1693822567::1693822573::1::::<><>::
+::res://Data/::1693831285
+::res://Data/Levels/::1693831295
+emeraldhillact1.png::CompressedTexture2D::7531410620546746071::1693831295::1693831307::1::::<><>::
+::res://Data/Sprites/::1693823731
+::res://Data/Sprites/Players/::1693829593
+dust.png::CompressedTexture2D::8554547266162377087::1693823931::1693825491::1::::<><>::
+SonicFrames.tres::SpriteFrames::3046265661069394423::1693828111::0::1::::<><>::uid://beupvsk7vnnxd::::res://Data/Sprites/Players/sonic.png
+sonic.png::CompressedTexture2D::2709412832240796029::1693829590::1693829593::1::::<><>::
+spindash.png::CompressedTexture2D::3777014527950383383::1693823741::1693825491::1::::<><>::
+supertrail.png::CompressedTexture2D::4043262418069333281::1693823892::1693825491::1::::<><>::
+::res://Scenes/::1693831109
+Sonic.gd::GDScript::-1::1693831109::0::1::::<>CharacterBody2D<>::
+Sonic.tscn::PackedScene::5945168498911675923::1693830616::0::1::::<><>::uid://bjnvsyh4a5ae6::::res://Data/Sprites/Players/SonicFrames.tres
