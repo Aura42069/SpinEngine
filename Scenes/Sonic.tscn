@@ -3,8 +3,8 @@
 [ext_resource type="Script" path="res://Scenes/Sonic.gd" id="1_lcmly"]
 [ext_resource type="SpriteFrames" uid="uid://bjnvsyh4a5ae6" path="res://Data/Sprites/Players/SonicFrames.tres" id="1_n2xhx"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_vvhhk"]
-size = Vector2(24, 38)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ugb2a"]
+size = Vector2(19, 39)
 
 [node name="Sonic" type="CharacterBody2D"]
 script = ExtResource("1_lcmly")
@@ -16,6 +16,21 @@ animation = &"idle"
 
 [node name="Collision" type="CollisionShape2D" parent="."]
 position = Vector2(0, 2)
-shape = SubResource("RectangleShape2D_vvhhk")
+shape = SubResource("RectangleShape2D_ugb2a")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
+position_smoothing_enabled = true
+
+[node name="DebugText" type="Label" parent="Camera2D"]
+offset_left = -284.0
+offset_top = -158.0
+offset_right = -241.0
+offset_bottom = -132.0
+theme_override_font_sizes/font_size = 8
+text = "X: 0
+Y: 0
+XS: 0
+YS: 0
+GS: 0
+GA: 0"

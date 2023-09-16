@@ -1,3 +1,5 @@
-res://Scenes/Sonic.tscn
-res://Data/Sprites/Players/SonicFrames.tres
 res://Data/Levels/node_2d.tscn
+res://Data/Sprites/Players/SonicFrames.tres
+res://Data/Levels/solid_tileset.tres
+res://Scenes/Sonic.gd
+res://Scenes/Sonic.tscn
